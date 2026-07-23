@@ -13,7 +13,7 @@ title: AA-Alkaline-Batterien Energizer Power
 | Hersteller | Energizer |
 | Hersteller-Teilenummer | `E300132901` |
 | EAN | `7638900246599` |
-| Bestellmenge | 2 Packungen mit je 4 Zellen |
+| Bestellmenge | 1 Packung mit je 4 Zellen |
 
 ## Technische Angaben
 
