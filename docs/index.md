@@ -9,11 +9,6 @@ Diese Seiten sammeln die technischen Unterlagen zu den im Linienfolger
 verwendeten Bauteilen. Die QR-Codes im Unterrichtsdossier werden später auf
 diese Seiten verweisen.
 
-## Übersicht
-
-- [Anonymisierte Bestellübersicht](bestelluebersicht.html)
-- [Quellenregister der Datenblätter](datenblaetter/quellen.html)
-
 ## Mechanik und Antrieb
 
 - [2WD-Fahrgestell Joy-IT Robot05](bauteile/fahrgestell-robot05.html)
