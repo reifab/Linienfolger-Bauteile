@@ -1,0 +1,17 @@
+# Betriebssystem und Editoren
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# Temporäre Dateien
+*.tmp
+*.bak
+~$*
+
+# Lokal erzeugte Vorschauen
+_site/
+.jekyll-cache/
+
+# Private Bestellunterlagen mit Personen- und Adressdaten
+order-*.pdf
