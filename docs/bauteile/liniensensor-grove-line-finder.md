@@ -13,7 +13,7 @@ title: Grove Line Finder V1.1
 | Hersteller | Seeed Studio |
 | Hersteller-Teilenummer | `101020172` |
 | Produktversion | Grove Line Finder V1.1 |
-| Bestellmenge | 4 |
+| Stückzahl | 2 |
 | Signale im Projekt | `S_L` und `S_R` |
 
 ## Technische Angaben
