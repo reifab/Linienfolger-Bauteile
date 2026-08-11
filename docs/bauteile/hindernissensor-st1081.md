@@ -26,6 +26,21 @@ title: Hindernissensor IDUINO ST1081
 - kein Hindernis: HIGH beziehungsweise logische 1
 - Abmessungen: ungefähr 45 × 16 × 10 mm
 
+## Anschlussbelegung
+
+Die Pinbezeichnungen sind direkt auf dem Modul aufgedruckt:
+
+| Pin | Bedeutung | Verwendung im Linienfolger |
+|---|---|---|
+| `+` | Versorgungsspannung, 3,3 bis 5 V DC | Anschluss an 5 V |
+| `Gnd` | Masse beziehungsweise Bezugspotential | Anschluss an GND |
+| `out` | digitaler Signalausgang | Messpunkt für das Hindernissignal `H_v` |
+| `EN` | Freigabeeingang; LOW-aktiv | im Unterrichtsaufbau nicht verwendet |
+
+Die Ausgangsspannung wird zwischen **`out` und `Gnd`** gemessen. Der Pin heisst
+bei diesem Modul ausdrücklich `out`. Die Bezeichnung `SIG` gehört zum Grove
+Line Finder und darf nicht auf den ST1081 übertragen werden.
+
 ## Für den Unterricht wichtig
 
 Der Ausgang ist **aktiv LOW**. Das Signal wird also gerade dann wirksam, wenn
