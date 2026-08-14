@@ -5,6 +5,8 @@ title: Motortreiber-Modul L298N / ME089
 
 # Motortreiber-Modul L298N / ME089
 
+![Motortreiber-Modul L298N / ME089 mit Jumpern und Anschlussklemmen](motortreiber-l298n-me089.png)
+
 ## Identifikation
 
 | Merkmal | Angabe |
@@ -19,10 +21,10 @@ title: Motortreiber-Modul L298N / ME089
 
 - zwei vollständige H-Brücken
 - Logikpegel: 5 V
-- Motorspannung laut Lieferant: 5 bis 35 V DC
-- maximaler Treiberstrom laut Lieferant: 2 A je Brücke
-- maximale Verlustleistung laut Lieferant: 25 W
-- Abmessungen: ungefähr 43 × 43 × 27 mm
+- Motorspannung: 5 bis 35 V DC
+- maximaler Treiberstrom: 2 A je Brücke
+- maximale Verlustleistung: 25 W
+- Abmessungen: 43 × 43 × 28 mm
 
 Die Grenzwerte des L298N-Chips und die praktisch sicheren Werte des Moduls sind
 nicht identisch. Kühlung, Spannungsabfall im Treiber, Motorstrom und
@@ -52,6 +54,5 @@ geprüft werden.
 
 ## Offene Arbeiten
 
-- [ ] Jumper und Anschlussklemmen des gelieferten Moduls fotografisch erfassen.
 - [ ] Spannungsabfall und Erwärmung mit den gelieferten Motoren messen.
 - [ ] Nach Veröffentlichung QR-Code auf diese Seite erzeugen.
