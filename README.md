@@ -14,6 +14,9 @@ Bauteilen des Linienfolgers, welches in einem Lernmodul gebaut wird.
 
 - `docs/index.md`: Startseite für GitHub Pages
 - `docs/bauteile/`: eine dauerhaft adressierbare Seite pro Bauteil
+- `docs/bauteile/3d-druckteile.md`: drei Druckteile mit 3D-Vorschau und STL-Downloads
+- `docs/bauteile/3dDruck/`: STL-Modelle der Halter und des Nucleo-64-Abstandshalters
+- `docs/assets/stl-viewer.html` und `stl-viewer.js`: statischer STL-Viewer
 - `docs/datenblaetter/`: lokale PDF-Dateien, sofern deren Veröffentlichung
   zulässig ist
 - `docs/qr-codes/`: später erzeugte QR-Codes
@@ -28,3 +31,14 @@ Bauteilen des Linienfolgers, welches in einem Lernmodul gebaut wird.
 
 Dadurch bleiben gedruckte QR-Codes gültig, wenn sich ein PDF, dessen Version
 oder die externe Herstelleradresse später ändert.
+
+## 3D-Vorschau
+
+Der Viewer läuft direkt auf GitHub Pages ohne zusätzliches Jekyll-Plugin oder
+Backend. Er lädt Three.js 0.180.0 (MIT-Lizenz), OrbitControls und STLLoader
+von jsDelivr; die STL-Dateien bleiben auf der eigenen Seite. JavaScript,
+WebGL und Zugriff auf das CDN sind erforderlich. Bei Ladefehlern bleiben die
+Downloadlinks auf der Dokumentationsseite verfügbar.
+
+Die Einbettungen verwenden Jekylls `relative_url`, damit sie auch unter dem
+Repository-Unterpfad einer GitHub-Pages-Projektseite funktionieren.

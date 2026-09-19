@@ -15,3 +15,15 @@ _site/
 
 # Private Bestellunterlagen mit Personen- und Adressdaten
 order-*.pdf
+Rechnung_Reichelt_Elektronik_FB_ENIK_2026-08-11_13-22-19-171.pdf
+docs/datenblaetter/L298N Motor Driver manual.pdf
+docs/datenblaetter/ME089-N.pdf
+docs/bauteile/3dDruck/batterieUndBreadBoardHalter.3mf
+docs/bauteile/3dDruck/batterieUndBreadBoardHalter.gcode.3mf
+docs/bauteile/3dDruck/lineFinderHalter.3mf
+/lineFinderHalter.gcode.3mf
+docs/bauteile/3dDruck/lineFinderHalter.ipt
+docs/bauteile/3dDruck/OldVersions/batterieUndBreadBoardHalter.0028.ipt
+docs/bauteile/3dDruck/OldVersions/lineFinderHalter.0007.ipt
+
+.gitignore

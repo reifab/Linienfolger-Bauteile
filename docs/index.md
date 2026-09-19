@@ -26,3 +26,7 @@ diese Seiten verweisen.
 - [Steckbrückenkabel f/m, 15 cm](bauteile/steckbrueckenkabel-ac043.html)
 - [Grove-Buchse, 4-polig, 90°](bauteile/grove-buchse-110990037.html)
 - [AA-Alkaline-Batterien Energizer Power](bauteile/batterien-energizer-power-aa.html)
+
+## 3D-Druckteile
+
+- [Halter und Nucleo-64-Abstandshalter mit interaktiver 3D-Ansicht](bauteile/3d-druckteile.html)

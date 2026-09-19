@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STL-Modell – 3D-Ansicht</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 14px system-ui, sans-serif; color: #243548; background: #f1f5f9; }
+    #viewport { width: 100%; height: calc(100vh - 88px); min-height: 180px; }
+    canvas { display: block; touch-action: none; }
+    footer { padding: 8px 12px; }
+    button { padding: 7px 12px; color: #243548; background: white; border: 1px solid #8798aa; border-radius: 5px; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #0076bd; }
+    #status { margin: 6px 0 0; }
+  </style>
+  <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}
+  </script>
+</head>
+<body>
+  <div id="viewport" aria-label="Interaktive 3D-Modellansicht"></div>
+  <footer>
+    <button id="reset" type="button" disabled>Ansicht zurücksetzen</button>
+    <p id="status" role="status">3D-Ansicht wird geladen …</p>
+    <noscript>Bitte aktiviere JavaScript oder nutze den STL-Download auf der Dokumentationsseite.</noscript>
+  </footer>
+  <script type="module" src="stl-viewer.js"></script>
+</body>
+</html>
