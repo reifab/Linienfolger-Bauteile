@@ -1,7 +1,8 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      {{ site.title | escape }}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="display: flex; align-items: center; gap: 16px; float: none; padding: 12px 0; line-height: 1.3;">
+      <img src="{{ '/assets/images/gbssg.ch_Logo_rgb.png' | relative_url }}" alt="GBS St. Gallen" width="72" height="72" style="display: block; flex: 0 0 72px;">
+      <span>{{ site.title | escape }}</span>
     </a>
   </div>
 </header>

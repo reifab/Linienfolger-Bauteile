@@ -23,9 +23,15 @@ diese Seiten verweisen.
 ## Aufbau und Verbindung
 
 - [Steckbrett-Set mit Versorgungsmodul](bauteile/steckbrett-set1.html)
-- [Steckbrückenkabel f/m, 15 cm](bauteile/steckbrueckenkabel-ac043.html)
+- [Steckbrückenkabel DEBO KABELSET10, f/m, 15 cm](bauteile/steckbrueckenkabel-ac043.html)
+- [Drahtbrücken-Set STECKBOARD DBS, 140-teilig](bauteile/drahtbruecken-steckboard-dbs.html)
+- [DC-Anschlussadapter Delock 65523](bauteile/dc-adapter-delock-65523.html)
 - [Grove-Buchse, 4-polig, 90°](bauteile/grove-buchse-110990037.html)
 - [AA-Alkaline-Batterien Energizer Power](bauteile/batterien-energizer-power-aa.html)
+
+## Logikbausteine
+
+- [Vierfach-NOR-Gatter CD74HC02E](bauteile/nor-gatter-cd74hc02e.html)
 
 ## 3D-Druckteile
 

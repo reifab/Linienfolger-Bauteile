@@ -20,6 +20,8 @@ Bauteilen des Linienfolgers, welches in einem Lernmodul gebaut wird.
 - `docs/datenblaetter/`: lokale PDF-Dateien, sofern deren Veröffentlichung
   zulässig ist
 - `docs/qr-codes/`: später erzeugte QR-Codes
+- `docs/assets/images/gbssg.ch_Logo_rgb.png`: GBS-Logo für die gemeinsame
+  Kopfzeile der Dokumentation
 - `RECHTE.md`: Regeln und offene Punkte zu Quellen und Veröffentlichungsrechten
 
 ## Ablauf
